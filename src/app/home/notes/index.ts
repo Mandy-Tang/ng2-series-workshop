@@ -27,4 +27,8 @@ export class Notes{
     this.notes.splice(i, 1);
   }
 
+  addNote(note) {
+    this.notes.push(note);
+  }
+
 }
