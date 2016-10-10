@@ -8,4 +8,4 @@
 - run `npm install -g webpack webpack-dev-server typings typescript ts-node tslint`
 - run `npm install`
 - run `npm start` to fire up dev server
-- open browser to [`http://localhost:3000`](http://localhost:3000)
+- open browser to [`http://localhost:3001`](http://localhost:3001)
