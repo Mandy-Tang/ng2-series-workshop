@@ -1,6 +1,6 @@
-import { Component, Output, EventEmitter } from '@angular/core'
-import {isEmpty} from 'lodash'
-import {ColorPicker} from './color-picker'
+import { Component, Output, EventEmitter } from '@angular/core';
+import {isEmpty} from 'lodash';
+import {ColorPicker} from './color-picker';
 
 @Component({
   selector: 'note-creator',
