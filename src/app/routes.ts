@@ -3,13 +3,13 @@ import {Home} from './home';
 import {About} from './about';
 import {AuthCompoment} from './auth';
 import {MainComponent} from './main';
-import {AuthGuard} from './shared/services';
+import {AuthService} from './shared/services';
 
 export const router: RouterConfig = [
   {
     path: '',
     component: MainComponent,
-    canActivate: [AuthGuard],
+    canActivate: [AuthService],
     children: [
       {path: '', component: Home},
       {path: 'about', component: About}
