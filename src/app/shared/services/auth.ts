@@ -26,7 +26,7 @@ export class AuthService implements CanActivate {
       .map(res => res.data)
   }
 
-  signout(): void {
+  signOut(): void {
     localStorage.removeItem(this.JWT_KEY);
     this.user = null;
     this.router.navigate(['/auth']);
