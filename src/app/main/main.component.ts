@@ -4,7 +4,7 @@ import {AppBar} from '../shared/components/app-bar';
 
 @Component({
   selector: 'main',
-  template: './main.component.html',
+  template: require('./main.component.html'),
   directives: [
     ROUTER_DIRECTIVES,
     AppBar
