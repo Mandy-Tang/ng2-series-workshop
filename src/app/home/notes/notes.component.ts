@@ -1,16 +1,16 @@
-import {Component} from '@angular/core';
-import {NoteCard} from './note-card';
-import {NoteCreator} from './note-creator';
-import {NoteService} from '../../shared/services/notes';
+import { Component } from '@angular/core';
+// import {NoteCard} from './note-card';
+// import {NoteCreator} from './note-creator';
+import { NoteService } from '../../shared/services/note.service';
 
 @Component({
   selector: 'notes',
-  template: require('./notes.html'),
-  styles: [require('./notes.css')],
-  directives: [NoteCard, NoteCreator]
+  template: require('./notes.component.html'),
+  styles: [require('./notes.component.css')],
+  // directives: [NoteCard, NoteCreator]
 })
 
-export class Notes{
+export class NotesComponent {
   notes = [];
   // notes = [
   //   {

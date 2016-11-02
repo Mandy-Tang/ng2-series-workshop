@@ -1,3 +1,3 @@
-export {ApiService} from './api';
-export {NoteService} from './notes';
-export * from './auth';
+export { ApiService } from './api.service';
+export { NoteService } from './note.service';
+export * from './auth.service';

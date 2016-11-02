@@ -1,12 +1,12 @@
-import {Component, Output, EventEmitter} from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'color-picker',
-  template: require('./color-picker.html'),
-  styles: [require('./color-picker.css')]
+  template: require('./color-picker.component.html'),
+  styles: [require('./color-picker.component.css')]
 })
 
-export class ColorPicker {
+export class ColorPickerComponent {
   @Output()
   onPickColor = new EventEmitter();
   isFocus:boolean = false;

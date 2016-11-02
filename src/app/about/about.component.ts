@@ -1,8 +1,8 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'about',
   template: require('./about.html')
 })
 
-export class About{}
+export class AboutComponent {}

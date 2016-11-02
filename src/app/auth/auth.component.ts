@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {AuthService} from '../shared/services';
-import {Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../shared/services';
+import { Router } from '@angular/router';
 
 const linkTexts = {
   signIn: 'Don\'t have an account?',
@@ -13,7 +13,7 @@ const linkTexts = {
   styles: [require('./auth.component.css')]
 })
 
-export class AuthCompoment implements OnInit {
+export class AuthComponent implements OnInit {
   user: {email: string, password: string};
   mode: 'signIn' | 'signUp';
   linkText: string;

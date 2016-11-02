@@ -1,35 +1,35 @@
 .auth {
-    height: 100%;
+  height: 100%;
 }
 input {
-    border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 .ng-invalid.ng-dirty {
-    border-bottom: 1px solid red;
+  border-bottom: 1px solid red;
 }
 form {
-    width: 100%;
-    border-radius: 2px;
-    background-color: white;
-    padding: 20px;
-    height: 400px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: white;
+  padding: 20px;
+  height: 400px;
 }
 .inputs {
-    height: 100%;
-    position: relative;
+  height: 100%;
+  position: relative;
 }
 .link {
-    color: lightblue;
+  color: lightblue;
 }
 .link:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 .title {
-    font-size: 36px;
-    font-weight: 300;
-    text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 .error {
-    color: red;
-    right: 20px;
+  color: red;
+  right: 20px;
 }
