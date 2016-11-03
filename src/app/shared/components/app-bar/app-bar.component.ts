@@ -5,9 +5,6 @@ import { AuthService } from '../../services';
 @Component({
   selector: 'app-bar',
   template: require('./app-bar.component.html'),
-  // directives: [
-  //   ...ROUTER_DIRECTIVES
-  // ],
   styles: [require('./app-bar.component.css')]
 })
 
